@@ -1,0 +1,17 @@
+#                                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NODE_11_length_142125_cov_73.817379_65 -          FeoE                 -            3.1e-24   84.2   5.0   3.5e-24   84.1   5.0   1.0   1   0   0   1   1   1   1 # 59144 # 60061 # -1 # ID=11_65;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.580
+NODE_41_length_45259_cov_77.715418_40  -          FeoE                 -            3.4e-16   57.8   4.7   4.4e-16   57.5   4.7   1.0   1   0   0   1   1   1   1 # 30797 # 31768 # 1 # ID=41_40;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.471
+NODE_11_length_142125_cov_73.817379_96 -          FeoE                 -            5.1e-14   50.7   3.4   5.8e-14   50.5   3.4   1.0   1   0   0   1   1   1   1 # 95742 # 96689 # -1 # ID=11_96;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.556
+NODE_20_length_99063_cov_81.345746_34  -          FeoE                 -            8.6e-13   46.7   4.5   1.2e-12   46.2   4.5   1.1   1   0   0   1   1   1   1 # 34209 # 35246 # -1 # ID=20_34;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.569
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-iron_transport//FeoE.hmm
+# Target file:     fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa
+# Option settings: hmmsearch -o fegenie_out/B1_de_novo_contigs.fna-HMM/FeoE.hmm.txt --tblout fegenie_out/B1_de_novo_contigs.fna-HMM/FeoE.hmm.tblout -T 20 --cpu 1 /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-iron_transport//FeoE.hmm fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa 
+# Current dir:     /home/enuh/anaconda3/envs/fegenie
+# Date:            Thu Jun 24 09:28:26 2021
+# [ok]

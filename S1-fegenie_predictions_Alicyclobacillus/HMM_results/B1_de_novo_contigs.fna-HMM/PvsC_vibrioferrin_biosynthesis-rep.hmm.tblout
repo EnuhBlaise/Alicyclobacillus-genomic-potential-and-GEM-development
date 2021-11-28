@@ -1,0 +1,18 @@
+#                                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                          accession  query name                         accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                  ------------------- ----------               -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NODE_11_length_142125_cov_73.817379_51 -          PvsC_vibrioferrin_biosynthesis-rep -            1.2e-29  101.8  27.1   1.7e-28   98.0  27.1   2.8   1   1   0   1   1   1   1 # 44145 # 45350 # -1 # ID=11_51;partial=00;start_type=GTG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_cont=0.519
+NODE_1_length_430038_cov_71.057182_356 -          PvsC_vibrioferrin_biosynthesis-rep -            2.8e-26   90.7  22.0   3.4e-26   90.5  22.0   1.0   1   0   0   1   1   1   1 # 365654 # 366847 # -1 # ID=1_356;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.518
+NODE_23_length_71748_cov_83.653388_12  -          PvsC_vibrioferrin_biosynthesis-rep -              1e-24   85.6  23.5   1.2e-24   85.3  23.5   1.0   1   0   0   1   1   1   1 # 10878 # 12065 # -1 # ID=23_12;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.561
+NODE_4_length_204850_cov_75.490338_47  -          PvsC_vibrioferrin_biosynthesis-rep -            2.4e-24   84.3  24.3   3.1e-24   84.0  24.3   1.0   1   0   0   1   1   1   1 # 48826 # 50001 # -1 # ID=4_47;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.535
+NODE_2_length_286464_cov_69.164676_197 -          PvsC_vibrioferrin_biosynthesis-rep -            3.4e-12   44.4  20.1   4.4e-12   44.0  20.1   1.1   1   0   0   1   1   1   1 # 173940 # 175205 # -1 # ID=2_197;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.500
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-siderophore_synthesis//PvsC_vibrioferrin_biosynthesis-rep.hmm
+# Target file:     fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa
+# Option settings: hmmsearch -o fegenie_out/B1_de_novo_contigs.fna-HMM/PvsC_vibrioferrin_biosynthesis-rep.hmm.txt --tblout fegenie_out/B1_de_novo_contigs.fna-HMM/PvsC_vibrioferrin_biosynthesis-rep.hmm.tblout -T 35 --cpu 1 /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-siderophore_synthesis//PvsC_vibrioferrin_biosynthesis-rep.hmm fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa 
+# Current dir:     /home/enuh/anaconda3/envs/fegenie
+# Date:            Thu Jun 24 09:29:21 2021
+# [ok]

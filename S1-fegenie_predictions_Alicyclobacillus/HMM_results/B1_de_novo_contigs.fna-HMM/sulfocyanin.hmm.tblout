@@ -1,0 +1,14 @@
+#                                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NODE_6_length_171226_cov_70.995092_135 -          sulfocyanin          -            4.2e-20   70.4   1.3   4.2e-20   70.4   1.3   2.3   2   2   0   2   2   2   1 # 138949 # 139644 # 1 # ID=6_135;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.573
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_oxidation//sulfocyanin.hmm
+# Target file:     fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa
+# Option settings: hmmsearch -o fegenie_out/B1_de_novo_contigs.fna-HMM/sulfocyanin.hmm.txt --tblout fegenie_out/B1_de_novo_contigs.fna-HMM/sulfocyanin.hmm.tblout -T 45 --cpu 1 /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_oxidation//sulfocyanin.hmm fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa 
+# Current dir:     /home/enuh/anaconda3/envs/fegenie
+# Date:            Thu Jun 24 09:28:33 2021
+# [ok]

@@ -1,0 +1,14 @@
+#                                                                                          --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                          accession  query name                    accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                  ------------------- ----------          -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NODE_1_length_430038_cov_71.057182_311 -          VabC-DhbC-VibC-EntC-AmoA-PchA -            1.3e-60  203.9   0.1   1.9e-60  203.4   0.1   1.1   1   0   0   1   1   1   1 # 319224 # 320732 # 1 # ID=1_311;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=11-12bp;gc_cont=0.563
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-siderophore_synthesis//VabC-DhbC-VibC-EntC-AmoA-PchA.hmm
+# Target file:     fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa
+# Option settings: hmmsearch -o fegenie_out/B1_de_novo_contigs.fna-HMM/VabC-DhbC-VibC-EntC-AmoA-PchA.hmm.txt --tblout fegenie_out/B1_de_novo_contigs.fna-HMM/VabC-DhbC-VibC-EntC-AmoA-PchA.hmm.tblout -T 161 --cpu 1 /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-siderophore_synthesis//VabC-DhbC-VibC-EntC-AmoA-PchA.hmm fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa 
+# Current dir:     /home/enuh/anaconda3/envs/fegenie
+# Date:            Thu Jun 24 09:29:20 2021
+# [ok]

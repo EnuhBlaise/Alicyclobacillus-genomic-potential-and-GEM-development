@@ -1,0 +1,16 @@
+#                                                                                       --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                         accession  query name                  accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                 ------------------- ----------        -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NODE_3_length_208412_cov_79.129613_84 -          FbpC-iron_uptake_ATPase-rep -            2.2e-99  330.6   0.1   5.4e-99  329.3   0.1   1.7   1   1   0   1   1   1   1 # 89696 # 90814 # 1 # ID=3_84;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.546
+NODE_23_length_71748_cov_83.653388_35 -          FbpC-iron_uptake_ATPase-rep -            1.5e-95  318.0   0.6   1.2e-94  315.0   0.2   1.9   1   1   0   2   2   2   1 # 34856 # 36001 # -1 # ID=23_35;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.567
+NODE_3_length_208412_cov_79.129613_24 -          FbpC-iron_uptake_ATPase-rep -            2.9e-93  310.5   0.2   4.4e-93  309.9   0.2   1.4   1   1   0   1   1   1   1 # 25270 # 26391 # 1 # ID=3_24;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.535
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-iron_transport//FbpC-iron_uptake_ATPase-rep.hmm
+# Target file:     fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa
+# Option settings: hmmsearch -o fegenie_out/B1_de_novo_contigs.fna-HMM/FbpC-iron_uptake_ATPase-rep.hmm.txt --tblout fegenie_out/B1_de_novo_contigs.fna-HMM/FbpC-iron_uptake_ATPase-rep.hmm.tblout -T 300 --cpu 1 /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-iron_transport//FbpC-iron_uptake_ATPase-rep.hmm fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa 
+# Current dir:     /home/enuh/anaconda3/envs/fegenie
+# Date:            Thu Jun 24 09:28:25 2021
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                 ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NODE_9_length_153363_cov_77.322756_45 -          zip                  -            1.5e-33  114.7  18.6   3.5e-11   41.4   2.5   4.0   1   1   3   4   4   4   4 # 52058 # 52987 # 1 # ID=9_45;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.572
+NODE_38_length_48730_cov_76.828397_10 -          zip                  -            3.1e-10   38.3  10.8   1.2e-07   29.9   5.1   4.0   2   1   0   2   2   2   2 # 7176 # 8024 # -1 # ID=38_10;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.530
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-iron_transport//zip.hmm
+# Target file:     fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa
+# Option settings: hmmsearch -o fegenie_out/B1_de_novo_contigs.fna-HMM/zip.hmm.txt --tblout fegenie_out/B1_de_novo_contigs.fna-HMM/zip.hmm.tblout -T 25 --cpu 1 /home/enuh/anaconda3/envs/fegenie/share/fegenie-1.0/hmms/iron//iron_aquisition-iron_transport//zip.hmm fegenie_out/ORF_calls/B1_de_novo_contigs.fna-proteins.faa 
+# Current dir:     /home/enuh/anaconda3/envs/fegenie
+# Date:            Thu Jun 24 09:28:24 2021
+# [ok]
